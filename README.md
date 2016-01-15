@@ -74,7 +74,7 @@ Only one table: accounts
 
 | field name | id | tag | category | url | user | password | note | pyshort |pyfull |
 |------------|-----|----|----------|------|------|---------|------|----------|------|
-| type | 
+| type |  
 | property|
 | value |
 
@@ -85,7 +85,7 @@ Only one table: accounts
 * Create table
 
 ```sql
-Create tablsq
+Create table
 ```
 
 * Insert data
