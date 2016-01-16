@@ -4,6 +4,24 @@
 Start to ust github.
 
 
+# Note
+
+## emacs.d
+
+guru-mode 是用来修改键绑定用另外的替代的包。
+
+rainbow-delimiters 是用来在 Lisp 的模式里分层级显示括号颜色，所有 Lisp 模式都这样。
+
+ido 是用来在 buffer 里搜索文件的。 类似的还有 anything。
+
+helm 是一个 Emacs incremental and narrowing framework。 fork from anything。
+
+company 是一个补全框架。
+
+
+
+
+
 # design of my app
 
 Here record all the app's design documents written by myself. From design to complete.
