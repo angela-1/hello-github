@@ -1,12 +1,23 @@
-# hello-github
+
+#+TITLE: hello-github
+#+OPTIONS: toc:2 num:nil ^:nil
+
+
+
+
+
+
+
+* hello-github
 
 
 Start to ust github.
 
 
-# Note
+* Note
 
-## emacs.d
+** emacs.d
+
 
 guru-mode 是用来修改键绑定用另外的替代的包。
 
@@ -22,23 +33,30 @@ company 是一个补全框架。
 
 
 
-# design of my app
+** design of my app
 
 Here record all the app's design documents written by myself. From design to complete.
 
-## Peachblossom -- My Emacs config
+*** peachblossom -- My Emacs config
+
+
+
+*** cherryblossom -- An encrypt account book
+
+
+
+*** phoenixflower -- A fixed assets management system
 
 
 
 
-## Phoenix -- A fixed assets management system
 
 Development code: __Phoenix__ 
 
 It is a website to manage the IT fixed assets, It is wrote in PHP with Laravel 5 frame and run on Apache. Use MySQL to store data.
 
 
-### Used tools
+**** Used tools
 
 * Apache 2
 * PHP 7
