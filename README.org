@@ -8,15 +8,15 @@
 
 
 
-* hello-github
+** hello-github
 
 
 Start to ust github.
 
 
-* Note
+** Note
 
-** emacs.d
+*** emacs.d
 
 
 guru-mode 是用来修改键绑定用另外的替代的包。
