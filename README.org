@@ -16,6 +16,17 @@ Start to ust github.
 
 ** Note
 
+
+
+*** cherryblossom 要做的事情
+
+    - =WM_SIZE= 里包含了新的窗口size，不能用 =getclienrect= 那样会对不准
+    - 全局变量的 =g_resource= 和 =g_dispatcher= 用完要释放，在destroywindow里
+
+
+
+
+
 *** emacs.d
 
 
