@@ -21,8 +21,20 @@ Start to ust github.
 
 *** cherryblossom 要做的事情
 
-    - =WM_SIZE= 里包含了新的窗口size，不能用 =getclienrect= 那样会对不准
-    - 全局变量的 =g_resource= 和 =g_dispatcher= 用完要释放，在destroywindow里
+    - [X] =WM_SIZE= 里包含了新的窗口size，不能用 =getclienrect= 那样会对不准
+      :note: 对不准的原因是listbox的高度必须是行的整数倍，不是平滑的
+    - [X] 全局变量的 =g_resource= 和 =g_dispatcher= 用完要释放，在destroywindow里
+    - [ ] 搜索输入框获取焦点
+    - [ ] 添加登录页面
+    - [ ] 添加欢迎页面
+    - [ ] 添加修改密码页面
+    - [ ] 添加修改语言页面
+    - [ ] 添加语言资源文件
+    - [ ] 截图介绍添加到欢迎页面
+    - [ ] 添加复制密码按钮
+    - [ ] 修改整体样式
+    - [ ] 清理代码
+    - [ ] 修改对话框背景色全部为白色，字体为雅黑
 
 
 
