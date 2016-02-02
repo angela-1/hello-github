@@ -124,24 +124,28 @@ Only one table: accounts
 
 ****** Create table
 
-```sql
+#+BEGIN_SRC sql
 create table accounts(id integer primary key, tag text unique not null, category text, url text, user text, password text, phone text, mail text, note text, lastmod TimeStamp NOT NULL DEFAULT (datetime('now','localtime')), pyshort text, pyfull text);
+#+END_SRC
 
-```
+
 
 ****** Insert data
 
-```sql
+#+BEGIN_SRC sql
 insert into accounts (tag, category, url, user, password, phone, mail, note, pyshort, pyfull) 
     values("tag" "category" "url" "user" "password" "phone" "mail" "note" "pyshort" "pyfull");
-```
+#+END_SRC
+
 
 
 ****** Update data
-```sql
+#+BEGIN_SRC sql
 update accounts set category="category" url="url" user="user" password="password" phone="phone" 
     mail="mail" notes="notes" lastmodified="datetime('now','localtime')" where tag="tag";
-```
+
+#+END_SRC
+
 
 
 ****** Delete data
