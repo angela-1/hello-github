@@ -120,12 +120,26 @@ Only one table: accounts
 | value    | ruoshui | mima     | google account | 1990-02-14 14:21:03 | google  | google |
 | length   | 100     | 16       | 200            | 20                  | 20      | 100    |
 
+
+
 ***** SQL
 
 ****** Create table
 
 #+BEGIN_SRC sql
-create table accounts(id integer primary key, tag text unique not null, category text, url text, user text, password text, phone text, mail text, note text, lastmod TimeStamp NOT NULL DEFAULT (datetime('now','localtime')), pyshort text, pyfull text);
+create table accounts(
+	id integer primary key, 
+	tag text unique not null, 
+	category text, 
+	url text, 
+	user text, 
+	password text, 
+	phone text, 
+	mail text, 
+	note text, 
+	lastmod TimeStamp NOT NULL DEFAULT (datetime('now','localtime')), 
+	pyshort text, pyfull text);
+
 #+END_SRC
 
 
