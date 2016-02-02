@@ -100,15 +100,25 @@ It is an accounts book written in pure Win32 API, use to store the username and 
 
 Only one table: accounts
 
+#+CAPTION: Database table 1
+| field    | id          | tag             | category | url            |
+|----------+-------------+-----------------+----------+----------------|
+| col      | 0           | 1               | 2        | 3              |
+|----------+-------------+-----------------+----------+----------------|
+| type     | integer     | text            | text     | text           |
+| property | primary key | unique not null |          |                |
+| value    | 1,2,3       | Google          | www      | www.google.com |
+| length   | auto        | 20              | 20       | 200            |
 
-| field name |      id     |       tag       | category |      url       |   user  | password |      note      |       lastmod       | pyshort | pyfull |
-|------------|-------------|-----------------|----------|----------------|---------|----------|----------------|---------------------|---------|--------|
-| type       | integer     | text            | text     | text           | text    | text     | text           | nowtime             | text    | text   |
-| property   | primary key | unique not null |          |                |         |          |                | not null default    |         |        |
-| value      | 1,2,3       | Google          | www      | www.google.com | ruoshui | mima     | google account | 1990-02-14 14:21:03 | google  | google |
-| length     | auto        | 20              | 20       | 200            | 100     | 16       | 200            | 20                  | 20      | 100    |
-
-
+#+CAPTION: Database table 2
+| field    | user    | password | note           | lastmod             | pyshort | pyfull |
+|----------+---------+----------+----------------+---------------------+---------+--------|
+| col      | 4       | 5        | 6              | 7                   | 8       | 9      |
+|----------+---------+----------+----------------+---------------------+---------+--------|
+| type     | text    | text     | text           | nowtime             | text    | text   |
+| property |         |          |                | not null default    |         |        |
+| value    | ruoshui | mima     | google account | 1990-02-14 14:21:03 | google  | google |
+| length   | 100     | 16       | 200            | 20                  | 20      | 100    |
 
 ***** SQL
 
@@ -135,6 +145,8 @@ update accounts set category="category" url="url" user="user" password="password
 
 
 ****** Delete data
+
+
 
 
 
